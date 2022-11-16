@@ -11,3 +11,11 @@ Route::get('/', function () {
 Route::get('/autok',function(){
     return view ('autok');
 });
+
+Route::get('/autok',function(){
+    return view ('');
+});
+
+Route::get('/autok',function(){
+    return view ('autok');
+});
