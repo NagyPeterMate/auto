@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class Autok extends Controller
 {
     public function autok(){
-        return view("auto");
+        return view("autok");
     }
 }

@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class Balesetek extends Controller
 {
-    //
+    public function balesetek(){
+        return view("balesetek");
+    }
 }
