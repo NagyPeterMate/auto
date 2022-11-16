@@ -1,5 +1,5 @@
-@extends('name')
-@section('title','Főoldal')
-@section('name')
+@extends('layouts.master')
+@section('title','Autok')
+@section('content')
     
 @endsection
