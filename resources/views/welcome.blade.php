@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Autok')
+@section('title','autok')
 @section('content')
     
 @endsection
