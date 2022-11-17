@@ -21,6 +21,6 @@ Route::get('/balesetek',function(){
     return view ('balesetek');
 });
 
-Route::get('/autok',[Autok::class,"autok"]);
-Route::get('/autok',[Tulajdonos::class,"tulajdonosok"]);
-Route::get('/autok',[Balesetek::class,"balesetek"]);
+Route::get('/auto',[Autok::class, "autok"]);
+Route::get('/auto',[Tulajdonos::class, "tulajdonosok"]);
+Route::get('/auto',[Balesetek::class, "balesetek"]);
