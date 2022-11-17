@@ -24,3 +24,7 @@ Route::get('/balesetek',function(){
 Route::get('/auto',[Autok::class, "autok"]);
 Route::get('/auto',[Tulajdonos::class, "tulajdonosok"]);
 Route::get('/auto',[Balesetek::class, "balesetek"]);
+
+Route::post('/autok',[Autok::class, "rogzites"]);
+Route::post('/autok',[Tulajdonos::class, "rogzites"]);
+Route::post('/autok',[Balesetek::class, "rogzites"]);
