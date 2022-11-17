@@ -49,7 +49,7 @@ class Tulajdonos extends Controller
             ]);
                 DB::insert("INSERT INTO autok (rendszam, tipus, szin) VALUES (?,?,?)",[$req->get('rendszam'),$req->get('tipus'),$req->get('szin')]);
                 DB::insert("INSERT INTO tulajdonosok (tulajdonosneve, tulajdonjogkezdete, tulajdonjogvege) VALUES (?,?,?)" ,[$req->get('tulajdonosneve'),$req->get('tulajdonjogkezdete'),$req->get('tulajdonjogvege')]);
-                DB::insert("INSERT INTO balesetek (baleset_idopontja, serules_leirasa) VALUES (?,?)",[$req->get('baleset_idopontja'),$req->get('serules_leirasa')]);
+                DB::insert("INSERT INTO baleset (baleset_idopontja, serules_leirasa) VALUES (?,?)",[$req->get('baleset_idopontja'),$req->get('serules_leirasa')]);
 
                 return redirect("/autok")-> with("Kész", "Az adat bevitel sikeres");
                 return redirect("/tulajdonos")-> with("Kész", "Az adat bevitel sikeres");

@@ -18,13 +18,13 @@
                   {{$message}}
                </div>  
               @enderror
-                <label>Tulajdonjog kezdete:</label>    <input type="text" id="tulajdonjog kezdete" name="tulajdonjog kezdete" class="form-control" value="{{old('tulajdonjog kezdete')}}"> <br>
+                <label>Tulajdonjog kezdete:</label>    <input type="date" id="tulajdonjog kezdete" name="tulajdonjog kezdete" class="form-control" value="{{old('tulajdonjog kezdete')}}"> <br>
                 @error('tulajdonjog kezdete')
                 <div class="alert alert-danger">
                   {{$message}}
                </div>  
               @enderror
-                <label>Tulajdonjog vége:</label>     <input type="text" id="tulajdonjog vege" name="tulajdonjog vege" class="form-control" value="{{old('tulajdonjog vege')}}"> <br>
+                <label>Tulajdonjog vége:</label>     <input type="date" id="tulajdonjog vege" name="tulajdonjog vege" class="form-control" value="{{old('tulajdonjog vege')}}"> <br>
                 @error('tulajdonjog vege')
                 <div class="alert alert-danger">
                   {{$message}}
